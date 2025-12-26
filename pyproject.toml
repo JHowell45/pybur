@@ -1,0 +1,17 @@
+[project]
+name = "pybur"
+version = "0.1.0"
+description = "CLI builder for scaffolding new projects"
+readme = "README.md"
+authors = [
+    { name = "Jacob", email = "jhowell45@googlemail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+pybur = "pybur:main"
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
