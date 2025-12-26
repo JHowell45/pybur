@@ -7,7 +7,9 @@ authors = [
     { name = "Jacob", email = "jhowell45@googlemail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "typer>=0.21.0",
+]
 
 [project.scripts]
 pybur = "pybur:main"
